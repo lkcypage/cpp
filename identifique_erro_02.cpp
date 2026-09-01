@@ -25,7 +25,7 @@ int main()
     printf("\nDigite o salario: ");
     scanf("%f", &salario);
 
-    if(idade >= 18 && altura >= 1.80)
+    if(idade >= 18 && altura >= 1.80f)
     {
         printf("\nJogador aprovado!");
     }
